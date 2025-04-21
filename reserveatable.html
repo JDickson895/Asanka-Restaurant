@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reserve table</title>
+        <meta name="description" content="Asanka Restaurant">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <!-- Account and cart header -->
+             <div class="accountCart">
+                <div class="openNclosing">
+                    <p>Sunday - Wednesday: 10:30am - 11:30pm | Thursday - Saturday: 11:30am - 12:00am</p>
+                </div>
+
+                <div class="navIcons">
+                    <div class="cart">
+                        <img src="icons/Shopping Cart.png" alt="My order">
+                        <span>My order</span>
+                    </div>
+                    <div class="account">
+                        <img src="icons/User.png" alt="user profile">
+                        <span>Account</span>
+                    </div>
+                </div>
+             </div>
+
+            
+            <!-- Main navigation bar -->
+            <nav class="nav-bar">
+              <div class="logo-color">
+                <a href="index.html"><img src="img/Asanka_Logo-color.png" alt="Asanka restuarant logo"></a>
+              </div>
+              <div class="menu-toggle" id="hamburger">
+                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#333" d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"/>
+                </svg>
+              </div>
+              <ul class="nav-list" id="navList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="karaoke.html">Karaoke</a></li>
+                <li><a href="reserveatable.html" class="active">Reserve a Table</a></li>
+              </ul>
+            </nav>
+
+            <!-- Reserve a table section -->
+            <section class="reservation-hero">
+              <div class="reservation-content">
+                <h1>Reserve a table</h1>
+                <p>
+                  Craving something unforgettable? Reserve your table your way<br>where bold flavors,
+                  good vibes, and your comfort collide.
+                </p>
+              </div>
+            
+              <div class="reservation-steps-glassy">
+                <button class="active">FIND A TABLE</button>
+                <button>YOUR DETAILS</button>
+                <button>CHECKOUT</button>
+              </div>
+            </section>
+            
+            
+            <form class="booking-form">
+              <select>
+                <option>1 person</option>
+                <option>2 people</option>
+                <option>3 people</option>
+                <option>5 people</option>
+                <option>6 people</option>
+                <option>7 people</option>
+                <option>8 people</option>
+                <option>9 people</option>
+                <option>10 people</option>
+                <option>11 people</option>
+              </select>
+          
+              <input type="date" value="2025-03-25" />
+          
+              <input type="time" name="reservation-time" value="19:00" />
+          
+              <button type="submit">Find a table</button>
+            </form>
+
+
+            <!-- Footer section -->
+
+            <footer class="footer">
+                <div class="footer-container">
+              
+                  <!-- Logo and About -->
+                  <div class="footer-about">
+                    <a href="index.html"><img src="img/Asanka_logo-BW.png" alt="Asanka Logo" class="footer-logo"></a>
+                    <p>
+                      Ghanaian clay bowl, Asanka is a warm, inclusive space for food lovers of all backgrounds—young or old,
+                      professionals or students, families or individuals.
+                    </p>
+                    <div class="footer-socials">
+                      <a href="#"><img src="icons/Facebook.png" alt="Facebook"></a>
+                      <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+                      <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                    </div>
+                  </div>
+              
+                  <!-- Quick Links -->
+                  <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="menu.html">Menu</a></li>
+                      <li><a href="karaoke.html">Karaoke</a></li>
+                      <li><a href="reserveatable.html">Reserve a Table</a></li>
+                    </ul>
+                  </div>
+              
+                  <!-- Map -->
+                  <div class="footer-map">
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.531912425744!2d-79.38659738450515!3d43.650204179121455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d3fc705a9f%3A0x4dc3d7a43c94c57c!2sGoogle%20Toronto!5e0!3m2!1sen!2sca!4v1713456789012"
+                    style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                  </div>
+                  
+                </div>
+              
+                <!-- Footer bottom -->
+                <div class="footer-bottom">
+                  <p>© 2025 Asanka Restaurant All Rights Reserved.</p>
+                </div>
+              </footer>
+              
+
+        </div>
+        <script src="script/script.js"></script>
+    </body>
+</html>
