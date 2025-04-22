@@ -120,7 +120,7 @@ body {
 /* Header hero section */
 
 .hero-section {
-    background-image: url('../img/hero-img.jpg');
+    background-image: url('../img/hero-img.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -610,7 +610,7 @@ body {
     border: none;
     font-weight: 500;
     background-color: rgba(255, 255, 255, 0.3);
-    color: #fff;
+    color: #4b4b4b;
     backdrop-filter: blur(5px);
     cursor: pointer;
     transition: all 0.3s ease;
@@ -618,8 +618,14 @@ body {
 }
   
 .menu-filters button:hover {
-    background-color: rgba(255, 255, 255, 0.5);
     background-color: #dbb823;
+}
+
+.menu-filters button.active {
+  background-color: #dbb823;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #dbb823;
 }
   
 
@@ -1137,7 +1143,14 @@ body {
       padding: 15px;
       position: static;
       transform: none;
+      backdrop-filter: none;
       margin-top: 20px;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      
     }
   
     .menu-filters button {
@@ -1145,16 +1158,16 @@ body {
       max-width: 150px;
       padding: 10px;
       font-size: 0.9rem;
-      background-color: rgba(255, 255, 255, 0.3);
-      color: #fff;
+      background-color: rgba(255, 255, 255, 0.205);
+      color: #ffffff;
       backdrop-filter: blur(5px);
       cursor: pointer;
       transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.25);
 
     }
 
     .menu-filters button:hover {
-      background-color: rgba(255, 255, 255, 0.5);
       background-color: #dbb823;
     }
     
