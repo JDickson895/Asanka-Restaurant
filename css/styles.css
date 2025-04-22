@@ -120,7 +120,7 @@ body {
 /* Header hero section */
 
 .hero-section {
-    background-image: url('../img/hero-img.png');
+    background-image: url('../img/hero-img.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -175,7 +175,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
-    transition: background 0.3s ease;
+    transition: background-color 0.3s ease;
   }
   
   .hero-btn:hover {
